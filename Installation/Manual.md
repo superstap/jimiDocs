@@ -7,6 +7,7 @@ sort: 2
 ## Prerequisites
 * mongodb 4.2+
 * python3
+* git
 
 ## jimi
 1. Clone repository
