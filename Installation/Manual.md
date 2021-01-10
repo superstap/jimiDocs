@@ -53,12 +53,13 @@ rm private.pem
 nano settings.json
 ```
 
+9. Copy the contents of the below file into settings.json and amend where text is encapsulated in < >
 ```
 {
     "system" : {
         "systemID" : 0,
-        "accessAddress" : "<jim_core HOST>",
-        "accessPort" : <jim_core PORT>
+        "accessAddress" : "<jimi_core HOST>",
+        "accessPort" : <jimi_core PORT>
     },
     "debug" : {
         "level" : -1,
@@ -133,14 +134,14 @@ nano settings.json
 }
 ```
 
-9. Run jimi_core.py
+10. Run jimi_core.py
 ```
 python3 jimi_core.py
 ```
 
-10. Pay careful attention to the install output as the root password is generated and output only on first run
+11. Pay careful attention to the install output as the root password is generated and output only on first run
 
-11. Run jimi_web.py
+12. Run jimi_web.py
 ```
 python3 jimi_web.py
 ```
