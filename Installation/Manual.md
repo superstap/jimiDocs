@@ -6,7 +6,9 @@ sort: 2
 
 ## Prerequisites
 * mongodb 4.2+
+* git
 * python3
+* python3-pip
 
 ## jimi
 1. Clone repository
@@ -129,7 +131,7 @@ nano settings.json
             "minUpper" : 1,
             "minSpecial" : 0
         }
-    },
+    }
 }
 ```
 
